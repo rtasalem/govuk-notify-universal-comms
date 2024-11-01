@@ -14,7 +14,7 @@ Optional:
 
 ## Running the application
 
-The application is designed to run in containerised environments*, using Docker Compose in development and Kubernetes in production.
+The application is designed to run in containerised environments, using Docker Compose in development and Kubernetes in production.
 
 - A Helm chart is provided for production deployments to Kubernetes.
 
