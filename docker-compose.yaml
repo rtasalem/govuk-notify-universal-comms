@@ -1,10 +1,18 @@
 services:
-  ffc-template-node:
+  govuk-notify-comms:
     build:
       context: .
       target: production
-    image: ffc-template-node
-    container_name: ffc-template-node
+    image: govuk-notify-comms
+    container_name: govuk-notify-comms
     environment:
-      APPINSIGHTS_CLOUDROLE: ffc-template-node-local
+      APPINSIGHTS_CLOUDROLE: govuk-notify-comms-local
       APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}
+      NOTIFY_API_KEY: ${NOTIFY_API_KEY}
+      NOTIFY_UNIVERSAL_EMAIL_TEMPLATE_ID: ${NOTIFY_UNIVERSAL_EMAIL_TEMPLATE_ID}
+      MESSAGE_QUEUE_HOST: ${MESSAGE_QUEUE_HOST}
+      MESSAGE_QUEUE_USERNAME: ${MESSAGE_QUEUE_USERNAME}
+      MESSAGE_QUEUE_PASSWORD: ${MESSAGE_QUEUE_PASSWORD}
+      COMMS_SUBSCRIPTION_ADDRESS: ${COMMS_SUBSCRIPTION_ADDRESS}
+      COMMS_TOPIC_ADDRESS: ${COMMS_TOPIC_ADDRESS}
+      AZURE_CLIENT_ID: ${AZURE_CLIENT_ID}

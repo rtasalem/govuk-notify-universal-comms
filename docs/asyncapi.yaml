@@ -1,0 +1,5 @@
+asyncapi: 3.0.0
+info:
+  title: GOV.UK Notify Universal Communications
+  version: 1.0.0
+  description: This is the asyncapi specification for the GOV.UK Notify Comms backend microservice.
