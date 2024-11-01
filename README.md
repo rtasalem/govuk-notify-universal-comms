@@ -18,7 +18,7 @@ The application is designed to run in containerised environments*, using Docker 
 
 - A Helm chart is provided for production deployments to Kubernetes.
 
-NB: This application has *not* been set up to run in a AKS cluster and can only be run locally.
+NB: This application has *not* been set up to run in a AKS cluster and can only be run locally, but examples of what information is needed in the Helm chart has been included for reference should anyone wish to test this further in deployed environments.
 
 ### Build container image
 
