@@ -1,6 +1,6 @@
 # GOV.UK Notify Communications
 
-A communications component that utilises [GOV.UK Notify](https://www.notifications.service.gov.uk/) to send out email notifications using a single template. This is a spike built around the Single Front Door's (SFD) work on messages to external users via Notify. This prototype explores the use of a single template for all email communications to external users bby any of Defra's services within the Farming & Countryside Programme (FCP). The primary aim of this exploration is to configure an application that utilises a single Notify template for emails to significantly reduce the need for template management.
+A backend communications component that utilises [GOV.UK Notify](https://www.notifications.service.gov.uk/) to send out notifications using only two universal templates for email and text notifications. This is a spike built around the Single Front Door's (SFD) work on delivering messages via Notify. The prototype explores the use of only a single template (one for email and one for text) to deliver communications to external users associated with any of Defra's services within the Farming & Countryside Programme (FCP). The primary aim of this exploration is to configure an application that exploits Notify as much as possible whilst reducing template managment significantly.
 
 ## Prerequisites
 
