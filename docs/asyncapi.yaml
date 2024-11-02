@@ -2,4 +2,10 @@ asyncapi: 3.0.0
 info:
   title: GOV.UK Notify Universal Communications
   version: 1.0.0
-  description: This is the asyncapi specification for the GOV.UK Notify Comms backend microservice.
+  description: Universal communications using single email and single text template via GOV.UK Notify.
+  contact:
+    name: Rana Salem
+    email: rana.salem@defra.gov.uk
+  externalDocs:
+    description: GOV.UK Notify API Node.js client documentation
+    url: https://docs.notifications.service.gov.uk/node.html
