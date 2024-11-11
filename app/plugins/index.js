@@ -1,9 +1,9 @@
 import Blipp from 'blipp'
 import logging from './logging.js'
 import router from './router.js'
-import {serverConfig} from '../config/index.js'
+import { serverConfig } from '../config/index.js'
 
-async function registerPlugins (server) {
+async function registerPlugins(server) {
   const plugins = [
     logging,
     router
