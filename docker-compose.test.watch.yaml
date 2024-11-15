@@ -1,5 +1,5 @@
 services:
-  govuk-notify-comms:
+  govuk-notify-universal-comms:
     command: >
       sh -c "npm run test:watch"
     volumes:

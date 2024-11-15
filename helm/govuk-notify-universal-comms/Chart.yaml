@@ -1,6 +1,6 @@
 apiVersion: v2
 description: A communications component that utilises GOV.UK Notify to send out email notifications using a single template.
-name: govuk-notify-comms
+name: govuk-notify-universal-comms
 # this version is automatically updated in the build pipeline
 version: 1.0.0
 dependencies:

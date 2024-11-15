@@ -2,11 +2,11 @@
 # that test output is saved to the host
 
 services:
-  govuk-notify-comms:
+  govuk-notify-universal-comms:
     build:
       target: development
-    image: govuk-notify-comms-development
-    container_name: govuk-notify-comms-test
+    image: govuk-notify-universal-comms-development
+    container_name: govuk-notify-universal-comms-test
     command: npm run test
     volumes:
       - ./app:/home/node/app

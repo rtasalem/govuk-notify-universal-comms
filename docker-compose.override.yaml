@@ -2,11 +2,11 @@
 # to provide dependencies and expose ports for local testing
 
 services:
-  govuk-notify-comms:
+  govuk-notify-universal-comms:
     build:
       target: development
-    image: govuk-notify-comms-development
-    container_name: govuk-notify-comms-development
+    image: govuk-notify-universal-comms-development
+    container_name: govuk-notify-universal-comms-development
     ports:
       - "3000:3000"
       - "9229:9229"
@@ -14,9 +14,9 @@ services:
       - ./app:/home/node/app
       - ./package.json:/home/node/package.json
     networks:
-      - govuk-notify-comms
+      - govuk-notify-universal-comms
 
 networks:
-  govuk-notify-comms:
-    name: govuk-notify-comms
+  govuk-notify-universal-comms:
+    name: govuk-notify-universal-comms
     driver: bridge

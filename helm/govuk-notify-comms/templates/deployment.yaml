@@ -1,3 +1,0 @@
-{{- include "ffc-helm-library.deployment" (list . "govuk-notify-comms.deployment") -}}
-{{- define "govuk-notify-comms.deployment" -}}
-{{- end -}}

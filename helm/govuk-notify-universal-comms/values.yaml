@@ -1,10 +1,10 @@
 # Required values to support CI pipeline
 environment: production
 environmentCode:
-name: govuk-notify-comms
+name: govuk-notify-universal-comms
 namespace: govuk-notify
 workstream: govuk-notify
-image: govuk-notify-comms
+image: govuk-notify-universal-comms
 
 appInsights:
   connectionString:

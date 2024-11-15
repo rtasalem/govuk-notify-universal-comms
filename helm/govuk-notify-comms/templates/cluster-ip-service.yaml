@@ -1,3 +1,0 @@
-{{- include "ffc-helm-library.cluster-ip-service" (list . "govuk-notify-comms.cluster-ip-service") -}}
-{{- define "govuk-notify-comms.cluster-ip-service" -}}
-{{- end -}}
