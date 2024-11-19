@@ -1,12 +1,12 @@
 services:
-  govuk-notify-comms:
+  govuk-notify-universal-comms:
     build:
       context: .
       target: production
-    image: govuk-notify-comms
-    container_name: govuk-notify-comms
+    image: govuk-notify-universal-comms
+    container_name: govuk-notify-universal-comms
     environment:
-      APPINSIGHTS_CLOUDROLE: govuk-notify-comms-local
+      APPINSIGHTS_CLOUDROLE: govuk-notify-universal-comms-local
       APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}
       NOTIFY_API_KEY: ${NOTIFY_API_KEY}
       NOTIFY_UNIVERSAL_EMAIL_TEMPLATE_ID: ${NOTIFY_UNIVERSAL_EMAIL_TEMPLATE_ID}

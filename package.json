@@ -1,8 +1,8 @@
 {
-  "name": "govuk-notify-comms",
-  "version": "0.2.0",
+  "name": "govuk-notify-universal-comms",
+  "version": "0.2.1",
   "description": "A communications component that utilises GOV.UK Notify to send out email notifications using a single template.",
-  "homepage": "https://github.com/rtasalem/govuk-notify-comms",
+  "homepage": "https://github.com/rtasalem/govuk-notify-universal-comms",
   "main": "app/index.js",
   "type": "module",
   "scripts": {

@@ -1,0 +1,8 @@
+{
+  "notifyTemplateId": "b6aab911-c15c-4921-afac-99a9036df11b",
+  "emailAddress": "jordan.doe@defra.gov.uk",
+  "personalisation": {
+      "subject": "You've got mail",
+      "templateContent": "## Hello World!\n\n This is a test message with a level 2 heading & normal text."
+  }
+}

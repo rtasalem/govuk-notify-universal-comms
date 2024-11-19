@@ -1,7 +1,0 @@
-{{- include "ffc-helm-library.container-config-map" (list . "govuk-notify-comms.config-map") -}}
-{{- define "govuk-notify-comms.config-map" -}}
-data:
-  NODE_ENV: {{ .Values.environment | quote }}
-  PORT: {{ .Values.container.port | quote }}
-  APPINSIGHTS_CLOUDROLE: {{ .Chart.Name | quote }}
-{{- end -}}
